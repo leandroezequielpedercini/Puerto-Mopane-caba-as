@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;   
+    }
+
+
+
+    /* Fondo de la pagina web */
+body{
+    background-color: rgb(248, 248, 197)
+}
+
+
+/* Logo de las cabañas */
+.puerto-mopane-cabañas{
+
+    height: 75px;
+    margin: 0.5%;
+    margin-right: 50%;
+    animation-name: puerto-mopane-cabañas;
+    animation-duration: 2s;
+}
+
+
+/*  puerto-mopane-cabañas - animacion 1 */
+@keyframes puerto-mopane-cabañas {
+    100%{
+        transform: translateX(30%);
+    }
+   
+
+}
+
+
+.puerto-mopane-cabañas{
+    margin-left: 1%;
+}
+
+/*  Icono de facebook*/
+
+.facebook{
+    width: 70px;    
+}
+
+/* Icono de instagram*/
+.instagram{
+    width: 75px;}
+
+/* Icono de whatsaap */
+.whatsapp{
+    width: 95px;
+    margin-top: -10px;
+}
+
+/* Icono movil */
+/* .movil{
+    height: 45px;
+    margin-bottom: 4px;
+    margin-left: 10px
+} */
+
+/* Icono e-mail*/
+.e-mail{
+    width: 80px;
+    margin-top: -10px;
+}
+
+
+
+.iconos{
+    
+ margin-top: -72px;
+margin-left: 1500px;
+display: flex;
+gap: 20px;
+height: 70px;
+scale: 80%;
+}
+
+/* links */
+.links{
+   font-size: 210%;
+   margin-left: 13%;
+   text-decoration-line: none;
+
+}
+
+
+
+
+/* nuestroLugar-HTML */
+.nuestroLugar-HTML{
+    margin: 3%;
+    color:  rgb(0, 162, 255);
+    text-decoration-line: none;
+}
+
+
+:hover.nuestroLugar-HTML{
+    color: green
+}
+
+/* lasCabañas.HTML */ 
+.lasCabañas-HTML{
+    margin: 3%;
+    color:  rgb(0, 162, 255);
+    text-decoration-line: none;
+}
+    
+:hover.lasCabañas-HTML{
+    color: green
+}
+
+
+/* ubicacion.HTML */
+.ubicacion-HTML{
+    margin: 3%;
+    color:  rgb(0, 162, 255);
+    text-decoration-line: none;
+}
+
+
+:hover.ubicacion-HTML{
+    color: green
+}
+
+/* contacto-HTML */
+.contacto-HTML{
+    margin: 3%;
+    color:  rgb(0, 162, 255);
+    text-decoration-line: none;
+}
+
+
+:hover.contacto-HTML{
+    color: green
+}
+
+
+
+
+
+/* carrusel-animacion - Animaion */
+#carrusel-animacion{
+  
+   animation-duration: 1s;
+}
+
+.parrafo-con-imagen{
+    background-color: rgb(165, 42, 42);
+    text-align: center;
+    font-size: 40px;
+    border: solid brown ;
+    color: white;
+    text-decoration: underline;
+    margin-top: 15px;
+    border-radius: 20000px;
+}
+
+.imagenes-pinos{
+   
+    text-align: center;
+    width: 500px;
+    padding-top: 80px;
+    margin-top: 40px;
+    padding: 50px;    
+    border-radius: 200px;
+}
+
+
+.div-imagenes-pino{
+    
+    margin-left: 650px;
+    
+}
+
+
+
+#parrafo{
+    margin-top: -10px;
+    margin-left: 10px;
+    scale: 100%;
+}
+
+.footer{
+    display: flex;
+    gap: 1040px;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: rgb(0, 187, 255);
+    color: white;
+    font-weight: bolder;
+    
+ }
+
+
+
+
+
+ .h4-parrafo{
+    font-weight: bold;
+    color: blue;
+    text-decoration:underline;
+}
+
+
+
+
+
+@media   (max-width: 700px){
+   
+
+.puerto-mopane-cabañas{
+    scale: 78%;
+    margin-left: -50px;
+}
+
+    .iconos{
+        margin-left: 415px;
+        scale: 50%;
+    }
+
+    .whatsaap-mail{
+     background: red;
+    display:grid;
+    gap: 20px;
+        
+    }
+
+    .div-imagenes-pino{
+        margin-left: 40px;
+    }
+
+    #parrafo{
+        margin-top: -10px;
+    }
+
+
+    .footer{
+        width: 610px;
+        display: flex;
+        gap: 140px;
+        font-size: 13px;
+
+    }
+
+    }
