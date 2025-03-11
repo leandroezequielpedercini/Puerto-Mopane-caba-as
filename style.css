@@ -70,7 +70,7 @@ body{
 .iconos{
     
  margin-top: -72px;
-margin-left: 1500px;
+ margin-left: 1000px;
 display: flex;
 gap: 20px;
 height: 70px;
@@ -140,9 +140,10 @@ scale: 80%;
 
 
 
+
 /* carrusel-animacion - Animaion */
 #carrusel-animacion{
-  
+    background-attachment: red;
    animation-duration: 1s;
 }
 
@@ -245,3 +246,5 @@ scale: 80%;
     }
 
     }
+
+    
