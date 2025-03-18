@@ -1,10 +1,10 @@
 // header //
 const cabezal = document.getElementById("cabezal-index-HTML")
-cabezal.innerHTML = '<img src="/img/index/1-heder/puerto Mopane.png" alt="Puerto Mopane" class="puerto-mopane-cabañas">  <div class="iconos" > <img src="/img/index/1-heder/facebook.png" alt="Facebook" class="facebook"> <img src="/img/index/1-heder/instagram.png" alt="Instagram" class="instagram"> <div class="whatsaap-mail"><img src="/img/index/1-heder/whatsapp.png" alt="WhatsAAP" class="whatsapp"> <img src="/img/index/1-heder/mail.png" alt="E-mail" class="e-mail"> </div> </div>  '   
+cabezal.innerHTML = '<img src="img/index/1-heder/puerto Mopane.png" alt="Puerto Mopane" class="puerto-mopane-cabañas">  <div class="iconos" > <img src="img/index/1-heder/facebook.png" alt="Facebook" class="facebook"> <img src="img/index/1-heder/instagram.png" alt="Instagram" class="instagram"> <div class="whatsaap-mail"><img src="img/index/1-heder/whatsapp.png" alt="WhatsAAP" class="whatsapp"> <img src="img/index/1-heder/mail.png" alt="E-mail" class="e-mail"> </div> </div>  '   
 
 // Links //
 document.getElementById("links")
-links.innerHTML = `<a href="/index.html" class="nuestroLugar-HTML">Nuestro lugar</a> <a href="/Mis paginas/lascabanias.html" class="lasCabañas-HTML">Las cabañas</a> <a href="/Mis paginas/ubicacion.html" class="ubicacion-HTML">Ubicacion</a><a href="/Mis paginas/contacto.html" class="contacto-HTML">Contacto</a>`
+links.innerHTML = `<a href="index.html" class="nuestroLugar-HTML">Nuestro lugar</a> <a href="Mis paginas/lascabanias.html" class="lasCabañas-HTML">Las cabañas</a> <a href="Mis paginas/ubicacion.html" class="ubicacion-HTML">Ubicacion</a><a href="/Mis paginas/contacto.html" class="contacto-HTML">Contacto</a>`
 /* ' */
 
 // carrusel //
@@ -13,10 +13,10 @@ carrusel.innerHTML = `
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="/img/index/2-carrusel/1.jpeg" class="d-block w-100" alt="Cartel de Puerto Mopane">
+        <img src="img/index/2-carrusel/1.jpeg" class="d-block w-100" alt="Cartel de Puerto Mopane">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="/img/index/2-carrusel/2.jpeg" class="d-block w-100" alt="Paisaje de las cabañas">
+        <img src="img/index/2-carrusel/2.jpeg" class="d-block w-100" alt="Paisaje de las cabañas">
       </div>
       
     </div>
