@@ -32,7 +32,7 @@ carrusel.innerHTML = `
     
     //  Parrafo con imagen //
 const imgparrafo = document.getElementById("img-parrafo-index")
-imgparrafo.innerHTML = '<p class="parrafo-con-imagen "> Un lugar para disfrutar...!</p> <div class="div-imagenes-pino" > <div class="imagenes-pinos"> <img class="img-pino1" src="img/index/3-foto-chica/Pino1.png" alt="Pino" class="pino"> <img class="img-pino2" src="/img/index/3-foto-chica/Pino1.png" alt="Pino" class="pino"> <img class="img-pino3" src="/img/index/3-foto-chica/Pino1.png" alt="Pino" class="pino"> </div> </div>'
+imgparrafo.innerHTML = '<p class="parrafo-con-imagen "> Un lugar para disfrutar...!</p> <div class="div-imagenes-pino" > <div class="imagenes-pinos"> <img class="img-pino1" src="img/index/3-foto-chica/Pino1.png" alt="Pino" class="pino"> <img class="img-pino2" src="img/index/3-foto-chica/Pino1.png" alt="Pino" class="pino"> <img class="img-pino3" src="img/index/3-foto-chica/Pino1.png" alt="Pino" class="pino"> </div> </div>'
 
 // Parrafo solo //
 const parrafo = document.getElementById("parrafo-index")
