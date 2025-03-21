@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0;
-    padding: 0;   
-    }
+    padding: 0;
+}
 
 
 
-    /* Fondo de la pagina web */
-body{
+/* Fondo de la pagina web */
+body {
     background-color: rgb(248, 248, 197)
 }
 
 
 /* Logo de las cabañas */
-.puerto-mopane-cabañas{
+.puerto-mopane-cabañas {
 
     height: 75px;
     margin: 0.5%;
@@ -24,30 +24,31 @@ body{
 
 /*  puerto-mopane-cabañas - animacion 1 */
 @keyframes puerto-mopane-cabañas {
-    100%{
+    100% {
         transform: translateX(30%);
     }
-   
+
 
 }
 
 
-.puerto-mopane-cabañas{
+.puerto-mopane-cabañas {
     margin-left: 1%;
 }
 
 /*  Icono de facebook*/
 
-.facebook{
-    width: 70px;    
+.facebook {
+    width: 70px;
 }
 
 /* Icono de instagram*/
-.instagram{
-    width: 75px;}
+.instagram {
+    width: 75px;
+}
 
 /* Icono de whatsaap */
-.whatsapp{
+.whatsapp {
     width: 95px;
     margin-top: -10px;
 }
@@ -60,28 +61,28 @@ body{
 } */
 
 /* Icono e-mail*/
-.e-mail{
+.e-mail {
     width: 80px;
     margin-top: -10px;
 }
 
 
 
-.iconos{
-    
- margin-top: -72px;
- margin-left: 1000px;
-display: flex;
-gap: 20px;
-height: 70px;
-scale: 80%;
+.iconos {
+
+    margin-top: -72px;
+    margin-left: 1000px;
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    scale: 80%;
 }
 
 /* links */
-.links{
-   font-size: 210%;
-   margin-left: 13%;
-   text-decoration-line: none;
+.links {
+    font-size: 210%;
+    margin-left: 13%;
+    text-decoration-line: none;
 
 }
 
@@ -89,50 +90,50 @@ scale: 80%;
 
 
 /* nuestroLugar-HTML */
-.nuestroLugar-HTML{
+.nuestroLugar-HTML {
     margin: 3%;
-    color:  rgb(0, 162, 255);
+    color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
 
 
-:hover.nuestroLugar-HTML{
+:hover.nuestroLugar-HTML {
     color: green
 }
 
-/* lasCabañas.HTML */ 
-.lasCabañas-HTML{
+/* lasCabañas.HTML */
+.lasCabañas-HTML {
     margin: 3%;
-    color:  rgb(0, 162, 255);
+    color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
-    
-:hover.lasCabañas-HTML{
+
+:hover.lasCabañas-HTML {
     color: green
 }
 
 
 /* ubicacion.HTML */
-.ubicacion-HTML{
+.ubicacion-HTML {
     margin: 3%;
-    color:  rgb(0, 162, 255);
+    color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
 
 
-:hover.ubicacion-HTML{
+:hover.ubicacion-HTML {
     color: green
 }
 
 /* contacto-HTML */
-.contacto-HTML{
+.contacto-HTML {
     margin: 3%;
-    color:  rgb(0, 162, 255);
+    color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
 
 
-:hover.contacto-HTML{
+:hover.contacto-HTML {
     color: green
 }
 
@@ -142,48 +143,48 @@ scale: 80%;
 
 
 /* carrusel-animacion - Animaion */
-#carrusel-animacion{
+#carrusel-animacion {
     background-attachment: red;
-   animation-duration: 1s;
+    animation-duration: 1s;
 }
 
-.parrafo-con-imagen{
+.parrafo-con-imagen {
     background-color: rgb(165, 42, 42);
     text-align: center;
     font-size: 40px;
-    border: solid brown ;
+    border: solid brown;
     color: white;
     text-decoration: underline;
     margin-top: 15px;
     border-radius: 20000px;
 }
 
-.imagenes-pinos{
-   
+.imagenes-pinos {
+
     text-align: center;
     width: 500px;
     padding-top: 80px;
     margin-top: 40px;
-    padding: 50px;    
+    padding: 50px;
     border-radius: 200px;
 }
 
 
-.div-imagenes-pino{
-    
+.div-imagenes-pino {
+
     margin-left: 650px;
-    
+
 }
 
 
 
-#parrafo{
+#parrafo {
     margin-top: -10px;
     margin-left: 10px;
     scale: 100%;
 }
 
-.footer{
+.footer {
     display: flex;
     gap: 1040px;
     justify-content: center;
@@ -191,53 +192,50 @@ scale: 80%;
     background-color: rgb(0, 187, 255);
     color: white;
     font-weight: bolder;
-    
- }
+
+}
 
 
-
-
-
- .h4-parrafo{
+.h4-parrafo {
     font-weight: bold;
     color: blue;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 
 
 
 
-@media   (max-width: 700px){
-   
+@media (max-width: 700px) {
 
-.puerto-mopane-cabañas{
-    scale: 78%;
-    margin-left: -50px;
-}
 
-    .iconos{
+    .puerto-mopane-cabañas {
+        scale: 78%;
+        margin-left: -50px;
+    }
+
+    .iconos {
         margin-left: 415px;
         scale: 50%;
     }
 
-    .whatsaap-mail{
-     background: red;
-    display:grid;
-    gap: 20px;
-        
+    .whatsaap-mail {
+        background: red;
+        display: grid;
+        gap: 20px;
+
     }
 
-    .div-imagenes-pino{
+    .div-imagenes-pino {
         margin-left: 40px;
     }
 
-    #parrafo{
+    #parrafo {
         margin-top: -10px;
     }
 
 
-    .footer{
+    .footer {
         width: 610px;
         display: flex;
         gap: 140px;
@@ -245,6 +243,4 @@ scale: 80%;
 
     }
 
-    }
-
-    
+}
