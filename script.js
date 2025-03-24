@@ -4,7 +4,7 @@ cabezal.innerHTML = '<img src="img/index/1-heder/puerto Mopane.png" alt="Puerto 
 
 // Links //
 const links = document.getElementById("links")
-links.innerHTML = `<a href="index.html" class="nuestroLugar-HTML">Nuestro lugar</a> <a href="/misPaginas/lasCabanias.html" class="lasCabañas-HTML">Las cabañas</a> <a href="/misPaginas/ubicacion.html"" class="ubicacion-HTML">Ubicacion</a><a href="/Mis paginas/contacto.html" class="contacto-HTML">Contacto</a>`
+links.innerHTML = `<a href="index.html" class="nuestroLugar-HTML">Nuestro lugar</a> <a href="/indexCabanias.html" class="lasCabañas-HTML">Las cabañas</a> <a href="indexUbicacion.html" class="ubicacion-HTML">Ubicacion</a><a href="indexContacto.html" class="contacto-HTML">Contacto</a>`
 
 /* ' */
 

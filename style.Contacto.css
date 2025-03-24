@@ -6,13 +6,13 @@
 
 
 /* Fondo de la pagina web */
-.body-ubicacion {
+.body-Contacto {
     background-color: rgb(248, 248, 197)
 }
 
 
 /* Logo de las cabañas */
-.puerto-mopane-cabañasUbicacion {
+.puerto-mopane-cabañasContacto {
 
     height: 75px;
     margin: 0.5%;
@@ -23,7 +23,7 @@
 
 
 /*  puerto-mopane-cabañas - animacion 1 */
-@keyframes puerto-mopane-cabañasUbicacion {
+@keyframes puerto-mopane-cabañasContacto {
     100% {
         transform: translateX(30%);
     }
@@ -32,23 +32,23 @@
 }
 
 
-.puerto-mopane-cabañasUbicacion {
+.puerto-mopane-cabañasContacto {
     margin-left: 1%;
 }
 
 /*  Icono de facebook*/
 
-.facebookUbicacion {
+.facebookContacto {
     width: 70px;
 }
 
 /* Icono de instagram*/
-.instagramUbicacion {
+.instagramContacto {
     width: 75px;
 }
 
 /* Icono de whatsaap */
-.whatsappUbicacion {
+.whatsappContacto {
     width: 95px;
     margin-top: -10px;
 }
@@ -61,14 +61,14 @@
 } */
 
 /* Icono e-mail*/
-.e-mailUbicacion {
+.e-mailContacto {
     width: 80px;
     margin-top: -10px;
 }
 
 
 
-.iconosUbicacion {
+.iconosContacto {
 
     margin-top: -72px;
     margin-left: 1000px;
@@ -79,7 +79,7 @@
 }
 
 /* links */
-.linksUbicacion {
+.linksContacto {
     font-size: 210%;
     margin-left: 13%;
     text-decoration-line: none;
@@ -139,7 +139,7 @@
 
 
 
-.footerUbicacion {
+.footerContacto {
     display: flex;
     gap: 1040px;
     justify-content: center;
@@ -147,5 +147,4 @@
     background-color: rgb(0, 187, 255);
     color: white;
     font-weight: bolder;
-
 }
