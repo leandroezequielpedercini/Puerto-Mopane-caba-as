@@ -6,24 +6,24 @@
 
 
 /* Fondo de la pagina web */
-.bodyLascabanias {
+.bodyubicacion {
     background-color: rgb(248, 248, 197)
 }
 
 
 /* Logo de las cabañas */
-.puerto-mopane-cabañasLascabanias {
+.puerto-mopane-cabañasubicacion {
 
     height: 75px;
     margin: 0.5%;
     margin-right: 50%;
-    animation-name: puerto-mopane-cabañasLascabanias;
+    animation-name: puerto-mopane-cabañasubicacion;
     animation-duration: 2s;
 }
 
 
 /*  puerto-mopane-cabañas - animacion 1 */
-@keyframes puerto-mopane-cabañasLascabanias {
+@keyframes puerto-mopane-cabañasubicacion {
     100% {
         transform: translateX(30%);
     }
@@ -32,23 +32,23 @@
 }
 
 
-.puerto-mopane-cabañasLascabanias {
+.puerto-mopane-cabañasubicacion {
     margin-left: 1%;
 }
 
 /*  Icono de facebook*/
 
-.facebookLascabanias {
+.facebookubicacion {
     width: 70px;
 }
 
 /* Icono de instagram*/
-.instagramLascabanias {
+.instagramubicacion {
     width: 75px;
 }
 
 /* Icono de whatsaap */
-.whatsappLascabanias {
+.whatsappubicacion {
     width: 95px;
     margin-top: -10px;
 }
@@ -61,14 +61,14 @@
 } */
 
 /* Icono e-mail*/
-.e-mailLascabanias {
+.e-mailubicacion {
     width: 80px;
     margin-top: -10px;
 }
 
 
 
-.iconosLascabanias {
+.iconosubicacion {
 
     margin-top: -72px;
     margin-left: 1000px;
@@ -79,7 +79,7 @@
 }
 
 /* links */
-.linksLascabanias {
+.linksubicacion {
     font-size: 210%;
     margin-left: 13%;
     text-decoration-line: none;
@@ -90,56 +90,67 @@
 
 
 /* nuestroLugar-HTML */
-.nuestroLugarLascabanias {
+.nuestroLugarubicacion {
     margin: 3%;
     color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
 
 
-:hover.nuestroLugarLascabanias {
+:hover.nuestroLugarubicacion {
     color: green
 }
 
 /* lasCabañas.HTML */
-.lasCabañasLascabanias {
+.lasCabañasubicacion {
     margin: 3%;
     color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
 
-:hover.lasCabañasLascabanias {
+:hover.lasCabañasubicacion {
     color: green
 }
 
 
 /* ubicacion.HTML */
-.ubicacionLascabanias {
+.ubicacionubicacion{
     margin: 3%;
     color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
 
 
-:hover.ubicacionLascabanias {
+:hover.ubicacionubicacion {
     color: green
 }
 
 /* contacto-HTML */
-.contactoLascabanias {    margin: 3%;
+.contactoubicacion {    margin: 3%;
     color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
 
 
-:hover.contactoLascabanias {
+:hover.contactoubicacion {
     color: green
+}
+
+#carrusel-ubicacion{
+  border: solid 20px rgb(0, 174, 255);
+  margin-top: -80px;
+  margin-right: 90px;
+    scale: 70%;
+}
+
+.parra-uno-de-ubicacion{
+    background-color: red;
+    scale: 90%;
 }
 
 
 
-
-.footerlascabanias {
+.footerubicacion {
     display: flex;
     gap: 1040px;
     justify-content: center;

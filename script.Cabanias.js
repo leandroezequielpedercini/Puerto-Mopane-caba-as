@@ -1,10 +1,10 @@
-// header //
 const cabezalLascabanias = document.getElementById("cabezal-lascabanias")
+// header //
 cabezalLascabanias.innerHTML = '<img src="/img/index/1-heder/puerto Mopane.png" alt="Puerto Mopane" class="puerto-mopane-cabañasLascabanias">  <div class="iconosLascabanias" > <img src="/img/index/1-heder/facebook.png" alt="Facebook" class="facebookLascabanias"> <img src="/img/index/1-heder/instagram.png" alt="Instagram" class="instagramLascabanias"> <div class="whatsaap-mailLascabanias"><img src="/img/index/1-heder/whatsapp.png" alt="WhatsAAP" class="whatsappLascabanias"> <img src="/img/index/1-heder/mail.png" alt="E-mail" class="e-mailLascabanias"> </div> </div>  '   
 
 // Links //
 const linksLascabanias = document.getElementById("links-lascabanias")
-linksLascabanias.innerHTML = `<a href="/index.html" class="nuestroLugarLascabanias">Nuestro lugar</a> <a href="/misPaginas/lasCabanias.html" class="lasCabañasLascabanias">Las cabañas</a> <a href="/Mis paginas/ubicacion.html" class="ubicacionLascabanias">Ubicacion</a><a href="/Mis paginas/contacto.html" class="contactoLascabanias">Contacto</a>`
+linksLascabanias.innerHTML = `<a href="/index.html" class="nuestroLugarLascabanias">Nuestro lugar</a> <a href="indexCabanias.html" class="lasCabañasLascabanias">Las cabañas</a> <a href="indexUbicacion.html" class="ubicacionLascabanias">Ubicacion</a><a href="/Mis paginas/contacto.html" class="contactoLascabanias">Contacto</a>`
 
 /* ' */
 
@@ -32,8 +32,13 @@ carruselLascabanias.innerHTML = `
   </div>`
     
 
+// Parrafo solo //
+const parrafoLascabanias = document.getElementById("parrafo-lascabanias")
+parrafoLascabanias.innerHTML = `<p class="parra-uno-de-lascabanias" >El complejo incluye una amplia piscina con deck y solarium, canchas de voley, fútbol y juegos para niños. Amplias y cómodas cabañas de 2 a 6 personas. Las mismas cuentan con detalles de confort y categoría contando con todos los servicios necesarios para que su estadia sea inolvidable</p>`
+
 
 
 /* Pie de pagina */
+
 const fotterLascabanias = document.getElementById("fotter-lascabanias")
 fotterLascabanias.innerHTML = `<footer class="footerlascabanias"><p class="diseñado-Por">Diseñado por : Leandro Ezequiel Pedercini</p>  <p class="creacion" >Creación del sitio web : 2025</p> </footer>`
