@@ -97,6 +97,7 @@
 }
 
 
+
 :hover.nuestroLugarLascabanias {
     color: green
 }
@@ -126,7 +127,8 @@
 }
 
 /* contacto-HTML */
-.contactoLascabanias {    margin: 3%;
+.contactoLascabanias
+ {    margin: 3%;
     color: rgb(0, 162, 255);
     text-decoration-line: none;
 }
@@ -138,14 +140,60 @@
 
 #carrusel-lascabanias{
   border: solid 20px rgb(0, 174, 255);
-  margin-top: -80px;
-  margin-right: 90px;
-    scale: 70%;
+  margin-top: -240px;
+  margin-left: -200px;
+    scale: 50%;
 }
+
+
 
 .parra-uno-de-lascabanias{
     background-color: red;
     scale: 90%;
+    margin-top: -250px;
+}
+
+.cabania-para-seis-personas{
+    width: 250px;
+    margin-left: 100px;
+    border: solid 5px;
+    margin-top: -10px;
+    }
+
+
+:hover .cabania-para-seis-personas{
+        
+        cursor: pointer;
+    }
+
+
+.classCarrito6-1-{
+    font-size: 50px;
+    width: 1378px;
+    margin-left: 200px;
+    margin-top:   -770px;
+    display: none;
+}
+
+
+.classCarrito6-2{
+    font-size: 50px;
+    width: 1378px;
+    margin-left: 200px;
+    margin-top:   -770px;
+    display: block;
+}
+
+
+/* Ventana cerrar de la cabaña 6  */
+.ventanaCruz{
+    width: 20px;
+    
+}
+
+.cabania-para-cuatro-personas{
+    width: 500px;
+    margin-left: 100px;
 }
 
 
@@ -154,7 +202,7 @@
     display: flex;
     gap: 1040px;
     justify-content: center;
-    margin-top: 40px;
+    margin-top:  30px;
     background-color: rgb(0, 187, 255);
     color: white;
     font-weight: bolder;

@@ -30,7 +30,8 @@ carruselLascabanias.innerHTML = `
       <span class="visually-hidden">Next</span>
     </button>
   </div>`
-    
+
+ 
 
 // Parrafo solo //
 const parrafoLascabanias = document.getElementById("parrafo-lascabanias")
@@ -38,7 +39,60 @@ parrafoLascabanias.innerHTML = `<p class="parra-uno-de-lascabanias" >El complejo
 
 
 
-/* Pie de pagina */
 
+  /* imagen 1 */
+const img1 = document.getElementById("img-Cabania-Paras-Seis")
+img1.innerHTML = `<img src="img/cabañas/1/Cabaña de 6 personas.jpg" alt="Cabañas para 6 personas" class="cabania-para-seis-personas"onclick="btncaba6()">`
+
+
+
+
+
+{/* <img src="img/cabañas/3/cruz.png" alt="Cerrar ventana"  class="ventanaCruz"  onclick="ventanacierre()""> */}
+
+
+const carro1 = document.getElementById("carritoId6")
+carro1.innerHTML = `
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/cabañas/1/Cabaña de 6 personas.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/cabañas/1/Cabaña de 6 personas.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/cabañas/1/Cabaña de 6 personas.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>`
+
+
+
+ function btncaba6(){
+   const carrusel6 = document.querySelector(".classCarrito6-1-");
+  carrusel6.classList.replace("classCarrito6-1-", "classCarrito6-2")
+  console.log(body) 
+  
+} 
+
+
+function ventanacierre(){
+  const cerrar6 = document.querySelector(".classCarrito6-2-")
+  cerrar6.classList.replace ("ventanaCruz", "ventanaCruzCierre")
+}
+
+
+
+
+/* Pie de pagina */
 const fotterLascabanias = document.getElementById("fotter-lascabanias")
 fotterLascabanias.innerHTML = `<footer class="footerlascabanias"><p class="diseñado-Por">Diseñado por : Leandro Ezequiel Pedercini</p>  <p class="creacion" >Creación del sitio web : 2025</p> </footer>`
